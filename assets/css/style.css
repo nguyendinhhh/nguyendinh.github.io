@@ -92,6 +92,10 @@ img {
     color: var(--color-base);
 }
 
+.title {
+    margin-bottom: 40px;
+}
+
 /* NAV BAR */
 .navbar {
     background-color: var(--color-base);
@@ -177,11 +181,14 @@ img {
 /* CARD */
 .card-custom .card-custom-image {
     overflow: hidden;
-
+    height: 25rem;
 }
 
 .card-custom .card-custom-image img {
     transition: all 0.4s ease;
+    width: 10;
+    height: 20em;
+    object-fit: cover;
 }
 
 .card-custom:hover .card-custom-image img {
