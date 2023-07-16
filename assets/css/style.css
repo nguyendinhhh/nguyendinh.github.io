@@ -181,12 +181,11 @@ img {
 /* CARD */
 .card-custom .card-custom-image {
     overflow: hidden;
-    height: 25rem;
+    /* height: 25rem; */
 }
 
 .card-custom .card-custom-image img {
     transition: all 0.4s ease;
-    width: 10;
     height: 20em;
     object-fit: cover;
 }
@@ -362,4 +361,13 @@ img {
         border-left: 0;
         left: -15px;
     }
+}
+
+.main-pj {
+    background-color: var(--color-base);
+    position: relative;
+}
+.main-pj-content {
+    position: relative;
+    margin: 30px;
 }
