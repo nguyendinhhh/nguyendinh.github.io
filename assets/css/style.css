@@ -126,7 +126,6 @@ img {
         min-height: 100vh;
         width: var(--sidbar-width);
         background: linear-gradient(rgba(68, 68, 68, 0.9),rgba(25, 25, 25, 0.9)),url("../images/side-bar.png");
-        /* background: rgb(0, 65, 139); */
         background-size: cover;
         background-position: center;
     }
@@ -187,7 +186,6 @@ img {
 /* CARD */
 .card-custom .card-custom-image {
     overflow: hidden;
-    /* height: 25rem; */
 }
 
 .card-custom .card-custom-image img {
@@ -200,6 +198,7 @@ img {
     transform: scale(1.1);
 }
 
+/* EXPERIENCE TIMELINE */
 .timeline {
     position: relative;
     max-width: 1200px;
@@ -210,41 +209,7 @@ img {
     padding: 10px 50px;
     position: relative;
     width: 50%;
-    /* animation: movedown 1s linear forwards;
-    opacity: 0; */
 }
-
-/* @keyframes movedown {
-    0% {
-        opacity: 1;
-        transform: translateY(-30px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-} */
-
-/* .timeline-container:nth-child(1){
-    animation-delay: 0s;
-}
-
-.timeline-container:nth-child(2) {
-    animation-delay: 1s;
-}
-
-.timeline-container:nth-child(3) {
-    animation-delay: 2s;
-}
-
-.timeline-container:nth-child(4) {
-    animation-delay: 3s;
-}
-
-.timeline-container:nth-child(5) {
-    animation-delay: 4s;
-} */
-
 
 .timeline::after {
     content: '';
@@ -331,6 +296,8 @@ img {
     left: -15px;
 }
 
+/* SOFTWARE CREATIONS */
+
 .main-pj {
     background-color: var(--color-base);
     position: relative;
@@ -358,6 +325,13 @@ img {
 .pj-img {
     position: relative;
     width: 10em;
+    margin-bottom: 1.5em;
+}
+
+#slac-cover, #drs-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -414,6 +388,8 @@ img {
         padding: 0;
     }
 }
+
+/* FOOTER */
 
 .footer {
     display: flex;
