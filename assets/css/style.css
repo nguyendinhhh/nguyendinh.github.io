@@ -125,7 +125,7 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(68, 68, 68, 0.9),rgba(25, 25, 25, 0.9)),url("../images/side-bar.png");
+        background: linear-gradient(rgba(68, 68, 68, 0.9),rgba(25, 25, 25, 1)),url("../images/background.jpeg");
         background-size: cover;
         background-position: center;
     }
@@ -335,6 +335,8 @@ img {
 }
 
 
+
+
 @media screen and (max-width:600px) {
     .timeline {
         margin: 50px auto;
@@ -399,4 +401,3 @@ img {
     margin-top: 3em;
     margin-bottom: 3em;
 }
-
