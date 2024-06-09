@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" type="image/png" href="./assets/images/web-dev-icon.png">
+
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar">
@@ -63,9 +64,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10">
-                        <h1 class="title display-4 fw-bold" data-aos="fade-up">Hi, it's <span class="text-brand">Nguyen</span>,</h1>
-                        <h2 class="title fst-italic" data-aos="fade-up" data-aos-delay="300">a software engineer based in the Bay Area.</h2>
-                        <p class="lead mb-4" data-aos="fade-up" data-aos-delay="600">I am enthusiastic about full-stack development, <br>artificial intelligence, entertainment tech and more. </p>
+                        <!-- <h1 class="title display-4 fw-bold" data-aos="fade-up">Hi, it's <span class="text-brand">Nguyen</span>,</h1> -->
+                        <h1 class="title display-4 fw-bold" data-aos="fade-up">
+                            <span class="typing-container" id="typing"></span>
+                        </h1>
+                        <h2 class="title fst-italic text-brand" data-aos="fade-up" data-aos-delay="600">a software engineer based in the Bay Area.</h2>
+                        <p class="lead mb-4" data-aos="fade-up" data-aos-delay="900">I am enthusiastic about full-stack development, <br>artificial intelligence, entertainment tech and more. </p>
                         <div data-aos="fade-up" data-aos-delay="900">
                             <a href="#about" class="btn btn-brand me-3">Check out my background!</a>
                         </div>
@@ -401,6 +405,7 @@
     </div>
     <!-- //CONTENT WRAPPER -->
 
+    <script src="./assets/js/typingEffect.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/aos.js"></script>
     <script src="./assets/js/main.js"></script>
