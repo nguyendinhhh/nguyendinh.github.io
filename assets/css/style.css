@@ -394,6 +394,12 @@ img {
         width: 100%;
         object-fit: contain;
     }
+
+    /* HOME */
+
+    #home {
+        text-align: center;
+    }
 }
 
 /* FOOTER */
